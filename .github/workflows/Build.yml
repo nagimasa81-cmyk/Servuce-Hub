@@ -19,7 +19,7 @@ jobs:
 
       - name: Run build BAT
         shell: cmd
-        run: Build_InSightecServiceHub.bat
+        run: Build_Hub_EXE_PyInstaller.bat
 
       - name: Verify output
         shell: cmd
