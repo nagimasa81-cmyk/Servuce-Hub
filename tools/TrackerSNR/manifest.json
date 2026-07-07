@@ -1,0 +1,31 @@
+{
+  "id": "tracker_snr",
+  "name": {
+    "en": "Tracker SNR",
+    "ja": "Tracker SNR",
+    "es": "Tracker SNR",
+    "zh_TW": "Tracker SNR"
+  },
+  "version": "1.0.0",
+  "build": "2026-07-08",
+  "exe": "TrackerSNR_CLEAN_EXE.exe",
+  "icon": "icon.png",
+  "description": {
+    "en": "Tracker SNR analyzer",
+    "ja": "Tracker SNR解析ツール",
+    "es": "Analizador Tracker SNR",
+    "zh_TW": "Tracker SNR解析ツール"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Analysis",
+  "enabled": true,
+  "status": "active",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}

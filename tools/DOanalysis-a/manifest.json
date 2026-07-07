@@ -1,0 +1,31 @@
+{
+  "id": "do_analysis_a",
+  "name": {
+    "en": "DO Analysis A",
+    "ja": "DO解析 A",
+    "es": "Análisis DO A",
+    "zh_TW": "DO解析 A"
+  },
+  "version": "1.0.0",
+  "build": "2026-07-08",
+  "exe": "DO Analysis Qt.exe",
+  "icon": "icon.png",
+  "description": {
+    "en": "DO level analysis A package",
+    "ja": "DOレベル解析 A パッケージ",
+    "es": "Paquete de análisis de nivel DO A",
+    "zh_TW": "DOレベル解析 A パッケージ"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Analysis",
+  "enabled": true,
+  "status": "active",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}

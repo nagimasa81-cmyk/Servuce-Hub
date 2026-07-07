@@ -1,0 +1,31 @@
+{
+  "id": "do_analysis_b",
+  "name": {
+    "en": "DO Analysis B",
+    "ja": "DO解析 B",
+    "es": "Análisis DO B",
+    "zh_TW": "DO解析 B"
+  },
+  "version": "1.0.1",
+  "build": "2026-07-08",
+  "exe": "DO Analysis Qt Ver1.0.1.exe",
+  "icon": "icon.png",
+  "description": {
+    "en": "DO level analysis B package",
+    "ja": "DOレベル解析 B パッケージ",
+    "es": "Paquete de análisis de nivel DO B",
+    "zh_TW": "DOレベル解析 B パッケージ"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Analysis",
+  "enabled": true,
+  "status": "active",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}

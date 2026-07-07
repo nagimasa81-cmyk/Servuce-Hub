@@ -1,0 +1,52 @@
+{
+  "languageVersion": "0.3.6",
+  "updated": "2026-07-07",
+  "runtimeSwitching": true,
+  "languages": {
+    "en": {
+      "name": "English",
+      "enabled": true,
+      "completion": 100
+    },
+    "ja": {
+      "name": "日本語",
+      "enabled": true,
+      "completion": 100
+    },
+    "zh_TW": {
+      "name": "繁體中文",
+      "enabled": true,
+      "completion": 100
+    },
+    "ko": {
+      "name": "한국어",
+      "enabled": false,
+      "completion": 25
+    },
+    "es": {
+      "name": "Español",
+      "enabled": false,
+      "completion": 25
+    }
+  },
+  "enabled_languages": [
+    "en",
+    "ja",
+    "zh_TW",
+    "es"
+  ],
+  "coming_soon_languages": [
+    "ko"
+  ],
+  "notes": "Traditional Chinese enabled. Update progress minimum display adjusted to 1.0 second. Module version change guide added.",
+  "enabledLanguages": [
+    "en",
+    "ja",
+    "zh_TW",
+    "es"
+  ],
+  "comingSoonLanguages": [
+    "ko"
+  ],
+  "build": "Commit 0003.6 zh-TW + Manifest Version Guide"
+}

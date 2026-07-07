@@ -1,0 +1,31 @@
+{
+  "id": "log_explorer",
+  "name": {
+    "en": "Log Explorer",
+    "ja": "ログエクスプローラー",
+    "es": "Explorador de logs",
+    "zh_TW": "ログエクスプローラー"
+  },
+  "version": "1.0.0",
+  "build": "2026-07-08",
+  "exe": "LogMergeTool_NoExcel.exe",
+  "icon": "icon.png",
+  "description": {
+    "en": "Log merge / explorer tool",
+    "ja": "ログの結合・検索ツール",
+    "es": "Herramienta para combinar y explorar logs",
+    "zh_TW": "ログの結合・検索ツール"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Analysis",
+  "enabled": true,
+  "status": "active",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}

@@ -1,0 +1,10 @@
+InSightec Service Hub Version History
+
+v1.1.1-M1-FEU
+- Completed temporary Tool Launcher for FEU validation.
+- Added per-tool ZIP installation and recursive EXE detection.
+- Added Validate Tools report under logs/.
+- Completed Feedback Center: category, related tool, severity, reproducible flag, screenshot/photo/file attachments, recent logs, validation summary, Outlook/template fallback.
+
+v1.1.0-M1
+- Dashboard, Tool Center, Help and Settings framework.

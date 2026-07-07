@@ -1,0 +1,220 @@
+{
+  "console_name": "InSightec Service Hub",
+  "console_version": "Commit 0003.6 zh-TW + Manifest Version Guide",
+  "build_date": "2026-07-07",
+  "feedback_mode": "template",
+  "feedback_to": "masakii@insightec.com",
+  "theme": "insightec_light",
+  "language": "en",
+  "user_name": "Masaki",
+  "default_folder": "",
+  "allow_admin_update": false,
+  "normal_permission_update_only": true,
+  "favorites": [
+    "log_explorer",
+    "do_analysis_a"
+  ],
+  "recent_files": [
+    {
+      "name": "sample_water_system.log",
+      "tool": "DO Analysis A"
+    },
+    {
+      "name": "gesys_GEMR3.log",
+      "tool": "Log Explorer"
+    },
+    {
+      "name": "Tracker SNR sample.xlsx",
+      "tool": "Tracker SNR"
+    }
+  ],
+  "notifications": [
+    {
+      "type": "info",
+      "title": "Commit 0003.6",
+      "message": "Traditional Chinese enabled. Module versions are changed in each module manifest.json."
+    },
+    {
+      "type": "info",
+      "title": "Commit 0003.4",
+      "message": "Module manifest framework added. Tool versions are now read from manifest.json."
+    }
+  ],
+  "tools": [
+    {
+      "id": "do_analysis_a",
+      "name": {
+        "en": "DO Analysis A",
+        "ja": "DO解析 A",
+        "es": "Análisis DO A"
+      },
+      "version": "1.0.0",
+      "folder": "tools/DOanalysis-a",
+      "exe": "DO Analysis Qt.exe",
+      "enabled": true,
+      "status": "active",
+      "description": {
+        "en": "DO level analysis A package",
+        "ja": "DO level analysis A package",
+        "es": "DO level analysis A package"
+      }
+    },
+    {
+      "id": "do_analysis_b",
+      "name": {
+        "en": "DO Analysis B",
+        "ja": "DO解析 B",
+        "es": "Análisis DO B"
+      },
+      "version": "1.0.1",
+      "folder": "tools/DOanalysis-b",
+      "exe": "DO Analysis Qt Ver1.0.1.exe",
+      "enabled": true,
+      "status": "active",
+      "description": {
+        "en": "DO level analysis B package",
+        "ja": "DO level analysis B package",
+        "es": "DO level analysis B package"
+      }
+    },
+    {
+      "id": "log_explorer",
+      "name": {
+        "en": "Log Explorer",
+        "ja": "ログエクスプローラー",
+        "es": "Explorador de logs"
+      },
+      "version": "1.0.0",
+      "folder": "tools/LogExplorer",
+      "exe": "LogMergeTool_NoExcel.exe",
+      "enabled": true,
+      "status": "active",
+      "description": {
+        "en": "Log merge / explorer tool",
+        "ja": "Log merge / explorer tool",
+        "es": "Log merge / explorer tool"
+      }
+    },
+    {
+      "id": "tracker_snr",
+      "name": {
+        "en": "Tracker SNR",
+        "ja": "Tracker SNR",
+        "es": "Tracker SNR"
+      },
+      "version": "1.0.0",
+      "folder": "tools/TrackerSNR",
+      "exe": "TrackerSNR_CLEAN_EXE.exe",
+      "enabled": true,
+      "status": "active",
+      "description": {
+        "en": "Tracker SNR analyzer",
+        "ja": "Tracker SNR analyzer",
+        "es": "Tracker SNR analyzer"
+      }
+    },
+    {
+      "id": "vimeasure",
+      "name": {
+        "en": "VIMeasure",
+        "ja": "V/I測定",
+        "es": "Medición V/I"
+      },
+      "version": "1.0.0",
+      "folder": "tools/VIMeasure",
+      "exe": "VIMeasureAnalyzer.exe",
+      "enabled": true,
+      "status": "active",
+      "description": {
+        "en": "V/I measurement analyzer",
+        "ja": "V/I measurement analyzer",
+        "es": "V/I measurement analyzer"
+      }
+    },
+    {
+      "id": "part_search",
+      "name": {
+        "en": "Part Search",
+        "ja": "部品検索",
+        "es": "Búsqueda de piezas"
+      },
+      "version": "TBD",
+      "folder": "plugins/PartSearch",
+      "exe": "",
+      "enabled": false,
+      "status": "future",
+      "description": {
+        "en": "Reserved future plug-in for service parts database search",
+        "ja": "Reserved future plug-in for service parts database search",
+        "es": "Reserved future plug-in for service parts database search"
+      }
+    },
+    {
+      "id": "document_search",
+      "name": {
+        "en": "Document Search",
+        "ja": "ドキュメント検索",
+        "es": "Búsqueda de documentos"
+      },
+      "version": "TBD",
+      "folder": "plugins/DocumentSearch",
+      "exe": "",
+      "enabled": false,
+      "status": "future",
+      "description": {
+        "en": "Reserved future plug-in for catalog/document search",
+        "ja": "Reserved future plug-in for catalog/document search",
+        "es": "Reserved future plug-in for catalog/document search"
+      }
+    }
+  ],
+  "future_plugin_policy": "Add new tools by placing the EXE under plugins/<PluginName> and adding an entry to config.json. No console code change required.",
+  "startup_page": "tools",
+  "feu_validation_mode": true,
+  "recent_tools": [],
+  "session_log": "",
+  "supported_languages": [
+    "en",
+    "ja",
+    "zh_TW",
+    "ko",
+    "es"
+  ],
+  "language_policy": {
+    "runtime_switching": true,
+    "enabled_languages": [
+      "en",
+      "ja",
+      "es"
+    ],
+    "coming_soon_languages": [
+      "zh_TW",
+      "ko"
+    ],
+    "selection_rule": "Coming Soon languages are visible but disabled."
+  },
+  "recent_activity": [
+    {
+      "time": "09:15",
+      "name": "DO Analysis A launched"
+    },
+    {
+      "time": "09:42",
+      "name": "Log Explorer opened"
+    },
+    {
+      "time": "10:03",
+      "name": "Feedback template created"
+    }
+  ],
+  "build": "Commit 0003.4 Module Manifest + Tool UI Polish",
+  "release_note": "UI Freeze polish: compact responsive tool cards, Details button, manifest version source display, and minimum Updating dialog display.",
+  "developer_password_hash": "3c94c0b1c3ce114c39b16272a86b47e0ed7de7c13a67b6b93eff0130ccd408f9",
+  "release_notes": [
+    {
+      "version": "Commit 0003.5",
+      "date": "2026-07-07",
+      "message": "UI Freeze polish: compact tool cards, Details, manifest version source, responsive layout, and Updating dialog minimum display."
+    }
+  ]
+}

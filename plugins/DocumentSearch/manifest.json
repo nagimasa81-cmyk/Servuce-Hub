@@ -1,0 +1,31 @@
+{
+  "id": "document_search",
+  "name": {
+    "en": "Document Search",
+    "ja": "ドキュメント検索",
+    "es": "Búsqueda de documentos",
+    "zh_TW": "ドキュメント検索"
+  },
+  "version": "TBD",
+  "build": "TBD",
+  "exe": "",
+  "icon": "icon.png",
+  "description": {
+    "en": "Reserved future plug-in for catalog/document search",
+    "ja": "カタログ・ドキュメント検索用の将来プラグイン",
+    "es": "Complemento futuro para búsqueda de documentos",
+    "zh_TW": "カタログ・ドキュメント検索用の将来プラグイン"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Knowledge",
+  "enabled": false,
+  "status": "future",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}

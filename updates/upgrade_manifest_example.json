@@ -1,0 +1,8 @@
+{
+  "product": "InSightec Service Hub",
+  "version": "Commit 0003.2",
+  "build": "Safe Upgrade",
+  "date": "2026-07-07",
+  "requires_hub": ">=Commit 0003.1",
+  "notes": "Safe restart updater and rollback support."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "part_search",
+  "name": {
+    "en": "Part Search",
+    "ja": "部品検索",
+    "es": "Búsqueda de piezas",
+    "zh_TW": "部品検索"
+  },
+  "version": "TBD",
+  "build": "TBD",
+  "exe": "",
+  "icon": "icon.png",
+  "description": {
+    "en": "Reserved future plug-in for service parts database search",
+    "ja": "サービス部品データベース検索用の将来プラグイン",
+    "es": "Complemento futuro para búsqueda de piezas",
+    "zh_TW": "サービス部品データベース検索用の将来プラグイン"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Knowledge",
+  "enabled": false,
+  "status": "future",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}

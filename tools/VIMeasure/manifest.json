@@ -1,0 +1,31 @@
+{
+  "id": "vimeasure",
+  "name": {
+    "en": "VIMeasure",
+    "ja": "V/I測定",
+    "es": "Medición V/I",
+    "zh_TW": "V/I測定"
+  },
+  "version": "1.0.0",
+  "build": "2026-07-08",
+  "exe": "VIMeasureAnalyzer.exe",
+  "icon": "icon.png",
+  "description": {
+    "en": "V/I measurement analyzer",
+    "ja": "V/I測定解析ツール",
+    "es": "Analizador de medición V/I",
+    "zh_TW": "V/I測定解析ツール"
+  },
+  "developer": "InSightec",
+  "min_hub_version": "1.0.0",
+  "supported_languages": [
+    "en",
+    "ja",
+    "es",
+    "zh_TW"
+  ],
+  "category": "Analysis",
+  "enabled": true,
+  "status": "active",
+  "_version_edit_note": "Change the module version by editing this manifest.json version field."
+}
